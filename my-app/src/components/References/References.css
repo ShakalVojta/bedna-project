@@ -1,0 +1,80 @@
+.references {
+    padding: 40px 0;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.references h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #3c2f2f;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.references hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.slick-prev, .slick-next {
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    cursor: pointer;
+    z-index: 1000;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.slick-prev {
+    left: 20px;
+}
+
+.slick-next {
+    right: 20px;
+}
+
+
+.slick-dots {
+    bottom: -25px;
+}
+
+.reference-card {
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.reference-card h3 {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #3c2f2f;
+    margin-bottom: 1rem;
+}
+
+.reference-card p {
+color: #3c2f2f;
+    margin-bottom: 1rem;
+}
+
+
+.reference-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.reference-image {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+
+

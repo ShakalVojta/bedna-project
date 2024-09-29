@@ -1,0 +1,93 @@
+.footer {
+    background-color: #3c2f2f;
+    color: #e5dad1;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.footer-content {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-contact {
+    margin: 15px 0;
+}
+/* Odkazy pro kontakt (email a telefonní číslo) */
+.contact-link {
+    color: #e5dad1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+    color: #d1c4b5;
+}
+
+/* Odkazy pro sociální média */
+.social-link {
+    color: #e5dad1;
+    margin: 0 10px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: #d1c4b5;
+}
+
+.footer-social a {
+    margin: 0 10px;
+    color: #e5dad1;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+    color: #d1c4b5;
+}
+
+@media (max-width: 1024px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer-contact, .footer-social {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-social {
+        margin-top: 15px;
+    }
+
+    .footer-contact, .footer-social {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-content {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .footer-social a {
+        font-size: 0.9rem;
+    }
+}

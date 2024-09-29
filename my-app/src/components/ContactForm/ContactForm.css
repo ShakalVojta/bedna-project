@@ -1,0 +1,158 @@
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contact-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contact-info h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #3c2f2f;
+}
+
+.contact-info .subtitle {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    font-size: 1rem;
+}
+
+.email {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.contact-form-fields {
+    margin-top: 3rem;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-fields input,
+.contact-form-fields textarea {
+    background-color: #e5dad1;
+    border: none;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+.contact-form-fields select {
+    background-color: #e5dad1;
+    border: none;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    border-radius: 4px;
+    appearance: none;
+    color: grey;
+}
+
+.contact-form-fields select:focus,
+.contact-form-fields select:not(:placeholder-shown) {
+    color: #333;
+}
+
+.contact-form-fields textarea {
+    height: 120px;
+    resize: none;
+}
+
+.contact-form-fields button {
+    background-color: #e5dad1;
+
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form-fields button:hover {
+    background-color: #d1c4b5;
+}
+
+@media (max-width: 1024px) {
+    .contact-form {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .contact-info, .contact-form-fields {
+        width: 100%;
+    }
+
+    .contact-info h2 {
+        font-size: 2rem;
+    }
+
+    .contact-info p {
+        font-size: 0.95rem;
+    }
+
+    .contact-form-fields {
+        margin-top: 0;
+    }
+
+    .contact-form-fields input,
+    .contact-form-fields textarea,
+    .contact-form-fields select {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-info h2 {
+        font-size: 1.8rem;
+    }
+
+    .contact-info p {
+        font-size: 0.85rem;
+    }
+
+    .contact-form-fields input,
+    .contact-form-fields textarea,
+    .contact-form-fields select {
+        font-size: 0.85rem;
+    }
+
+    .contact-form-fields button {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-info h2 {
+        font-size: 1.6rem;
+    }
+
+    .contact-info p {
+        font-size: 0.8rem;
+    }
+
+    .contact-form-fields input,
+    .contact-form-fields textarea,
+    .contact-form-fields select {
+        font-size: 0.8rem;
+    }
+
+    .contact-form-fields button {
+        font-size: 0.85rem;
+    }
+}

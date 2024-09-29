@@ -20,22 +20,30 @@ const Header = () => {
 
     return (
         <>
-        <header className="header">
-            <div className="header__logo" onClick={handleLogoClick} style={{ cursor: "pointer"}}>
-                <h1>GREENPROVE</h1>
-            </div>
-            <nav className={`nav ${menuOpen ? 'open' : ''}`}>
-                <ul className="header__nav">
-                    <li><button onClick={() => navigate('/about')}>O nás</button></li>
-                    <li><button onClick={() => navigate('/services')}>Naše Služby</button></li>
-                    <li><button onClick={() => navigate('/references')}>Reference</button></li>
-                    <li><button onClick={() => navigate('/contact')}>Kontakt</button></li>
-                </ul>
-            </nav>
-            <div className="hamburger" onClick={toggleMenu}>☰</div>
+            <header className="header">
+                <div className="header__logo" onClick={handleLogoClick} style={{cursor: "pointer"}}>
+                    <h1>GREENPROVE</h1>
+                </div>
+                <nav className={`nav ${menuOpen ? 'open' : ''}`}>
+                    <ul className="header__nav">
+                        <li>
+                            <button onClick={() => navigate('/about')}>O nás</button>
+                        </li>
+                        <li>
+                            <button onClick={() => navigate('/services')}>Naše Služby</button>
+                        </li>
+                        <li>
+                            <button onClick={() => navigate('/references')}>Reference</button>
+                        </li>
+                        <li>
+                            <button onClick={() => navigate('/contact')}>Kontakt</button>
+                        </li>
+                    </ul>
+                </nav>
+                <div className="hamburger" onClick={toggleMenu}>☰</div>
+                <hr className="fixed-hr"/>
+            </header>
 
-        </header>
-        <hr />
         </>
     );
 }
