@@ -27,23 +27,21 @@ const Header = () => {
                 <nav className={`nav ${menuOpen ? 'open' : ''}`}>
                     <ul className="header__nav">
                         <li>
-                            <button onClick={() => navigate('/about')}>O nás</button>
+                            <a href="#about">O nás</a>
                         </li>
                         <li>
-                            <button onClick={() => navigate('/services')}>Naše Služby</button>
+                            <a href="#services">Naše Služby</a>
                         </li>
                         <li>
-                            <button onClick={() => navigate('/references')}>Reference</button>
+                            <a href="#references">Reference</a>
                         </li>
                         <li>
-                            <button onClick={() => navigate('/contact')}>Kontakt</button>
+                            <a href="#contact-form">Kontakt</a>
                         </li>
                     </ul>
                 </nav>
                 <div className="hamburger" onClick={toggleMenu}>☰</div>
-                <hr className="fixed-hr"/>
             </header>
-
         </>
     );
 }

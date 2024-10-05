@@ -51,7 +51,7 @@ const References = () => {
 
 
     return (
-        <section className="references">
+        <section className="references" id="references">
             <h2>REFERENCE</h2>
             <p>Tady bude časem popis jednotlivých projektů, které se udělali, zatím jsem nula. Místo těch mýdel budou obrázky z projektů a popis max jedna věta.</p>
             <hr />

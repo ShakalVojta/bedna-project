@@ -9,22 +9,25 @@
 
 .about__banner {
     position: relative;
-    height: 360px;
     width: 100%;
+    height: 400px;
     background-image: url('../../assets/banner.jpeg');
-    border-radius: 2px;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
+
+
 .about__banner-text {
     color: white;
     text-align: left;
     padding-left: 4%;
-    padding-top: 6%;
+    padding-top: 10%;
 }
 
 .about__banner-text h2 {
@@ -70,7 +73,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 2px;
+    border-radius: 4px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -80,11 +83,11 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 2px;
+    border-radius: 4px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 1180px) {
     .about__content-container {
         flex-direction: column;
         align-items: center;

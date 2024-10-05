@@ -34,7 +34,7 @@
     list-style: none;
 }
 
-.header__nav button {
+.header__nav a {
     font-family: 'Poppins', sans-serif;
     background: none;
     border: none;
@@ -47,7 +47,7 @@
     transition: all 0.3s ease;
 }
 
-.header__nav button::after {
+.header__nav a::after {
     content: '';
     position: absolute;
     width: 0;
@@ -58,7 +58,7 @@
     transition: width 0.3s ease;
 }
 
-.header__nav button:hover::after {
+.header__nav a:hover::after {
     width: 100%;
 }
 

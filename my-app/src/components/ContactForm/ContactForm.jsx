@@ -4,7 +4,8 @@ const ContactForm = () => {
     return (
         <section id="contact-form" className="contact-form">
             <div className="contact-info">
-                <h2>Contact</h2>
+                <h2>Kontakt</h2>
+                <hr />
                 <p className="subtitle">Máte projekt, který by mohl těžit z našich udržitelných a ekologických řešení? Neváhejte nás kontaktovat, rádi vám pomůžeme!</p>
                 <p>Zaujaly vás naše služby? Jsme připraveni vám pomoci s vaším projektem – od zelených střech po správu dešťové vody. Vyplňte formulář níže a my vás co nejdříve kontaktujeme s návrhem řešení na míru.</p>
             </div>
@@ -20,6 +21,7 @@ const ContactForm = () => {
                     <option value="Návrh přírodních prvků">Návrh přírodních prvků pro průmyslové areály</option>
                     <option value="Environmentální školení">Environmentální školení pro firmy</option>
                     <option value="Projekty přípojek">Projekty vodovodních a kanalizačních přípojek</option>
+                    <option value="jiné">Jiné</option>
                 </select>
                 <textarea name="message" placeholder="ZPRÁVA" required/>
                 <button type="submit">ODESLAT</button>

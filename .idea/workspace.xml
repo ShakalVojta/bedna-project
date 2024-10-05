@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="afc43413-6066-4bcf-9ee6-d4b89ebf6aa6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/About/About.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/About/About.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/ContactForm/ContactForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/ContactForm/ContactForm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/ContactForm/ContactForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/ContactForm/ContactForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Header/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/References/References.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/References/References.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/References/References.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/References/References.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/Services/Services.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Services/Services.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/Services/Services.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Services/Services.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.3.2/bin/php" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2mw71FQXBOxJ8XXKUjpoCLJL4CR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PS-242.23339.16" />
+        <option value="bundled-php-predefined-a98d8de5180a-90914f2295cb-com.jetbrains.php.sharedIndexes-PS-242.23339.16" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="afc43413-6066-4bcf-9ee6-d4b89ebf6aa6" name="Changes" comment="" />
+      <created>1727975567904</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727975567904</updated>
+      <workItem from="1727975569417" duration="31000" />
+      <workItem from="1727975801798" duration="6760000" />
+      <workItem from="1727982622499" duration="1210000" />
+      <workItem from="1728122697914" duration="18000" />
+      <workItem from="1728122722653" duration="3495000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

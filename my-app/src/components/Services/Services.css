@@ -9,6 +9,13 @@
     font-size: 2.4rem;
     color: #3b5132;
     margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.services hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #3b5132;
 }
 
 .services-container {
@@ -16,6 +23,7 @@
     gap: 20px;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: stretch;
 }
 
 .service-tile {
@@ -29,7 +37,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
+    box-sizing: border-box;
 }
 
 .service-tile img {
@@ -48,28 +56,63 @@
     margin: 15px 0;
     color: #3b5132;
     min-height: 3rem;
+    line-height: 1.4;
+    text-align: center;
+    word-wrap: break-word;
 }
+
 
 .service-content {
     padding-top: 20px;
     margin-top: 20px;
+    flex-grow: 1;
 }
 
-.service-content p {
-    font-size: 1rem;
-    color: #516d48;
-    line-height: 1.6;
-    min-height: 100px;
-}
-
-.service-content, .service-header {
+.service-point {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkmark {
+    color: #3b5132;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.service-point p {
+    margin-left: 8px;
 }
 
 img {
     background-color: white;
+}
+
+@media (max-width: 1390px) {
+    .services-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    .service-tile {
+        width: 30%;
+        padding: 20px;
+        border-radius: 4px;
+        border: 1px solid #d1ddd4;
+        text-align: left;
+        position: relative;
+        transition: all 0.3s ease;
+    }
+
+    .service-header h3 {
+        font-size: 1.2rem;
+        margin: 15px 0;
+        color: #3b5132;
+    }
+
 }
 
 @media (max-width: 1024px) {
@@ -78,8 +121,39 @@ img {
     }
 }
 
+/* Pro šířku 768px a menší */
 @media (max-width: 768px) {
     .service-tile {
         width: 100%;
+        text-align: center;
+    }
+
+    .service-content {
+        padding-top: 20px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-point {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start; /* Umožní zarovnat fajfku a text vedle sebe */
+        gap: 10px; /* Přidá prostor mezi fajfkou a textem */
+        width: 100%; /* Zajistí, že fajfky a text jsou vedle sebe a zarovnané */
+    }
+
+    .checkmark {
+        font-size: 1.5rem; /* Zajistí konzistentní velikost fajfky */
+        color: #3b5132;
+    }
+
+    .service-point p {
+        margin: 0; /* Odstranění dodatečných mezer */
+        text-align: left; /* Zajistí zarovnání textu vlevo, pokud je víceřádkový */
     }
 }
+
+
+

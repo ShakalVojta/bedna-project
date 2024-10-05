@@ -3,41 +3,62 @@ import greenRoof from '../../assets/services/green-roof.jpg';
 import rainWater from '../../assets/services/rainwater-management.jpg';
 import waterPipe from '../../assets/services/water-pipe.jpg';
 import greenEducation from '../../assets/services/green-education.jpg';
-import industrialArea from '../../assets/services/industrial-design.jpg'
+import industrialArea from '../../assets/services/industrial-design.jpg';
 
 const Services = () => {
 
     const services = [
         {
-            title: "Návrh zelené střechy",
+            title: <>Návrh udržitelné <br />zelené vegetační <br />střechy</>,
             img: greenRoof,
-            description: "Zelené střechy jsou jedním z nejefektivnějších způsobů, jak využít zelenou infrastrukturu ve městě. Umožňují zadržování dešťové vody a snižují teplotu v okolním prostředí."
+            description: [
+                "Zadržování dešťové vody",
+                "Snížení teploty v okolí",
+                "Zlepšení mikroklimatu"
+            ]
         },
         {
-            title: "Studie hospodaření s dešťovými a odpadními vodami",
+            title: <>Studie hospodaření<br />s dešťovými<br />a odpadními vodami</>,
             img: rainWater,
-            description: "Studie hospodaření s dešťovými a odpadními vodami je klíčová pro efektivní využívání vodních zdrojů a zajištění udržitelného přístupu k vodě."
+            description: [
+                "Efektivní využívání vodních zdrojů",
+                "Zajištění vodních zdrojů",
+                "Optimalizace vodních cest"
+            ]
         },
         {
-            title: "Návrh přírodních prvků pro průmyslové areály",
+            title: <>Návrh přírodních prvků pro průmyslové<br />areály</>,
             img: industrialArea,
-            description: "Přidání přírodních prvků do průmyslových areálů podporuje biodiverzitu, zlepšuje mikroklima a přispívá k lepšímu životnímu prostředí."
+            description: [
+                "Podpora biodiverzity",
+                "Zlepšení mikroklimatu",
+                "Ekologická integrace"
+            ]
         },
         {
-            title: "Environmentální školení pro firmy",
+            title: <>Environmentální<br />školení pro<br />firmy</>,
             img: greenEducation,
-            description: "Poskytujeme školení zaměřená na environmentální povědomí a udržitelné praktiky, které pomáhají firmám snižovat jejich ekologickou stopu."
+            description: [
+                "Zvýšení povědomí o ekologii",
+                "Snižování ekologické stopy",
+                "Vzdělávání pracovníků"
+            ]
         },
         {
-            title: "Projekty vodovodních a kanalizačních přípojek",
+            title: <>Projekty vodovodních<br />a kanalizačních<br />přípojek</>,
             img: waterPipe,
-            description: "Naše projekty vodovodních a kanalizačních přípojek se zaměřují na moderní technologie a udržitelné řešení pro efektivní nakládání s vodou."
+            description: [
+                "Moderní technologie",
+                "Efektivní vodní řešení",
+                "Optimalizace infrastruktury"
+            ]
         }
     ];
 
     return (
         <section className="services" id="services">
             <h2>Naše služby</h2>
+            <hr />
             <div className="services-container">
                 {services.map((service, index) => (
                     <div className="service-tile" key={index}>
@@ -46,7 +67,12 @@ const Services = () => {
                             <h3>{service.title}</h3>
                         </div>
                         <div className="service-content">
-                            <p>{service.description}</p>
+                            {service.description.map((point, idx) => (
+                                <div key={idx} className="service-point">
+                                    <span className="checkmark">✔️</span>
+                                    <p>{point}</p>
+                                </div>
+                            ))}
                         </div>
                     </div>
                 ))}
