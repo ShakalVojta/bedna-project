@@ -37,7 +37,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     box-sizing: border-box;
+    min-height: 400px;
 }
 
 .service-tile img {
@@ -55,17 +57,22 @@
     font-size: 1rem;
     margin: 15px 0;
     color: #3b5132;
-    min-height: 3rem;
     line-height: 1.4;
     text-align: center;
     word-wrap: break-word;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-
 .service-content {
-    padding-top: 20px;
-    margin-top: 20px;
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
 }
 
 .service-point {
@@ -83,6 +90,7 @@
 
 .service-point p {
     margin-left: 8px;
+    text-align: left;
 }
 
 img {
@@ -99,12 +107,7 @@ img {
 
     .service-tile {
         width: 30%;
-        padding: 20px;
-        border-radius: 4px;
-        border: 1px solid #d1ddd4;
-        text-align: left;
-        position: relative;
-        transition: all 0.3s ease;
+        min-height: 350px;
     }
 
     .service-header h3 {
@@ -112,7 +115,6 @@ img {
         margin: 15px 0;
         color: #3b5132;
     }
-
 }
 
 @media (max-width: 1024px) {
@@ -121,11 +123,11 @@ img {
     }
 }
 
-/* Pro šířku 768px a menší */
 @media (max-width: 768px) {
     .service-tile {
         width: 100%;
         text-align: center;
+        min-height: auto;
     }
 
     .service-content {
@@ -139,21 +141,18 @@ img {
     .service-point {
         display: flex;
         align-items: center;
-        justify-content: flex-start; /* Umožní zarovnat fajfku a text vedle sebe */
-        gap: 10px; /* Přidá prostor mezi fajfkou a textem */
-        width: 100%; /* Zajistí, že fajfky a text jsou vedle sebe a zarovnané */
+        justify-content: flex-start;
+        gap: 10px;
+        width: 100%;
     }
 
     .checkmark {
-        font-size: 1.5rem; /* Zajistí konzistentní velikost fajfky */
+        font-size: 1.5rem;
         color: #3b5132;
     }
 
     .service-point p {
-        margin: 0; /* Odstranění dodatečných mezer */
-        text-align: left; /* Zajistí zarovnání textu vlevo, pokud je víceřádkový */
+        margin: 0; 
+        text-align: left;
     }
 }
-
-
-

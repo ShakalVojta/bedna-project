@@ -32,9 +32,9 @@ const Header = () => {
                         <li>
                             <a href="#services">Naše Služby</a>
                         </li>
-                        <li>
+                        {/* <li>
                             <a href="#references">Reference</a>
-                        </li>
+                        </li> */}
                         <li>
                             <a href="#contact-form">Kontakt</a>
                         </li>

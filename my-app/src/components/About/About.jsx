@@ -16,7 +16,7 @@ const About = () => {
             <div className="about__content-container">
                 <div className="about__content">
                     <p>
-                        Jsme česká firma zabývající se komplexním řešením a problematikou životního prostředí. Mezi naše obory patří návrh jednoduchých i složitějších zelených střech, studie hospodaření s dešťovými i odpadními vodami, návrh přírodě blízkých biodiverzních řešení pro malé i velké objekty, školení pro firmy či projekty vodovodních a kanalizačních přípojek.
+                       Zabýváme se komplexním řešením a problematikou životního prostředí. Mezi naše obory patří návrh jednoduchých i složitějších zelených střech, studie hospodaření s dešťovými i odpadními vodami, návrh přírodě blízkých biodiverzních řešení pro malé i velké objekty, školení pro firmy či projekty vodovodních a kanalizačních přípojek.
                     </p>
                 </div>
                 <div className="about__images">

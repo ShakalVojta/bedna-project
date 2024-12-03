@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afc43413-6066-4bcf-9ee6-d4b89ebf6aa6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/About/About.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/About/About.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/ContactForm/ContactForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/ContactForm/ContactForm.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/ContactForm/ContactForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/ContactForm/ContactForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Header/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/References/References.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/References/References.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/References/References.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/References/References.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/Services/Services.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Services/Services.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/Services/Services.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Services/Services.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +61,9 @@
       <workItem from="1727975801798" duration="6760000" />
       <workItem from="1727982622499" duration="1210000" />
       <workItem from="1728122697914" duration="18000" />
-      <workItem from="1728122722653" duration="3495000" />
+      <workItem from="1728122722653" duration="4244000" />
+      <workItem from="1728240212926" duration="36000" />
+      <workItem from="1728240290293" duration="17000" />
     </task>
     <servers />
   </component>

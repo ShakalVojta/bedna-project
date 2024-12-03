@@ -11,7 +11,7 @@ const HomePage = () => {
         <>
             <About />
             <Services />
-            <References />
+            {/* <References /> */}
             <ContactForm />
         </>
     )
